@@ -1,3 +1,3 @@
-POId;SupplierId;SupplierName;
-10001;201;Car Suppliers Co.;
-10002;202;Bumper Sticker Co.;
+POId;DeliveryAddress;GrossAmount;Supplier_Id
+10001;Park Avenue 10;200;LA1
+10002;Wall Street 20;320;LA2

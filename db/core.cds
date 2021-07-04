@@ -1,7 +1,17 @@
 namespace procurement;
 
 entity PurchaseOrders {
-    POId : String;
-    SupplierID : String;
-    SupplierName : String ; 
+    Key POId : String;
+    DeliveryAddress : String;
+    GrossAmount : Integer ;
+    Supplier : Association to Suppliers;
+    
+}
+
+entity Suppliers @cds.autoexpose {
+    key Id : String;
+    Name : String;
+    Phone : String ; 
+    Email : String;
+    
 }

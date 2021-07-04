@@ -1,25 +1,27 @@
-# Getting Started
+# RTR_00_00_Demo_03_SERVICE_NORMALIZATION
+Demo Application demonstrating how the created services can be denormalized inorder to avoid offering a generic all-purpose service. 
 
-Welcome to your new project.
+# Name of Application
+RTR_00_00_Demo_03_Service_normalization
 
-It contains these folders and files, following our recommended project layout:
+# Created on:
+02.07.2021
 
-File or Folder | Purpose
----------|----------
-`app/` | content for UI frontends goes here
-`db/` | your domain models and data go here
-`srv/` | your service models and code go here
-`package.json` | project metadata and configuration
-`readme.md` | this getting started guide
+# Created by:
+Shadab Alam
 
-
-## Next Steps
-
-- Open a new terminal and run `cds watch` 
-- (in VS Code simply choose _**Terminal** > Run Task > cds watch_)
-- Start adding content, for example, a [db/schema.cds](db/schema.cds).
+# Change Request No:
+666
 
 
-## Learn More
+# Application Overview
+This is a demo application. It is used to demonstrate features offered by the CAP Framework to denormalize a service in a declarative fashion by making use of annotations.  
 
-Learn more at https://cap.cloud.sap/docs/get-started/.
+
+# Authorization Overview
+Since this is a Demo Application, authorization is not being built into the application. 
+
+
+# External Services Consumed by Application
+
+# Installation Instructions and Prerequisites
