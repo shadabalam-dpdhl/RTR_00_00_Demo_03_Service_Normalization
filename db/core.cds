@@ -1,6 +1,7 @@
 namespace procurement;
+using { managed } from '@sap/cds/common';
 
-entity PurchaseOrders {
+entity PurchaseOrders : managed {
     Key POId : String;
     DeliveryAddress : String;
     GrossAmount : Integer ;
